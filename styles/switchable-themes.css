@@ -1,0 +1,38 @@
+/* Both switchable themes live in one always-loaded stylesheet. */
+:root[data-theme="sunrise"]{--accent:#e76b4c;--accent-pale:#fff0e9;--canvas:#fbf6f1;--card:#fff;--line:#eee2d9;--shadow:0 5px 0 #f1e6dd;--radius:15px}
+:root[data-theme="sunrise"] body{background:radial-gradient(circle at 95% 8%,#fbe6b8 0 48px,transparent 49px),radial-gradient(circle at 88% 11%,#f5b89c 0 19px,transparent 20px),var(--canvas)}
+:root[data-theme="sunrise"] .brand-mark{background:#e76b4c;border-radius:11px 11px 4px 11px}
+:root[data-theme="sunrise"] .sample-badge{background:#fff3dd;border-color:#f1d79d;color:#976b27}
+:root[data-theme="sunrise"] .sample-badge i{background:#eaa64d}
+:root[data-theme="sunrise"] .nav-link{background:#fff0e9;border-color:#f6c9b7;color:#cf5e40}
+:root[data-theme="sunrise"] .filter-icon{background:#fff0e9;color:#dd6b4d}
+:root[data-theme="sunrise"] .goal-icon{background:#fff2dc;color:#b37a28}
+:root[data-theme="sunrise"] .actual-icon{background:#e9f4ee;color:#458b69}
+:root[data-theme="sunrise"] .rate-icon{background:#fff0e9;color:#d66548}
+:root[data-theme="sunrise"] .count-icon{background:#f1ecfa;color:#8670ae}
+:root[data-theme="sunrise"] .achievement-card .metric-value,:root[data-theme="sunrise"] .rate-cell{color:#d66548}
+:root[data-theme="sunrise"] .metric-progress,:root[data-theme="sunrise"] .mini-progress{background:#faece4;border-color:#f4d5c4}
+:root[data-theme="sunrise"] .metric-progress span,:root[data-theme="sunrise"] .mini-progress span{background:#e76b4c}
+:root[data-theme="sunrise"] .page-heading:after{content:"";position:absolute;right:10%;top:-12px;width:58px;height:58px;border:3px solid #edb76c;border-radius:50%;box-shadow:15px 15px 0 -10px #ef9c80}
+:root[data-theme="sunrise"] .metric-card:nth-child(odd){border-bottom:4px solid #f4c8ad}
+:root[data-theme="sunrise"] .empty-icon{background:#fff0e9;color:#df6e51;border-color:#f4c8ad}
+
+:root[data-theme="ink-blue"]{--accent:#3659c9;--accent-pale:#e8edff;--canvas:#f2f5fa;--card:#fff;--line:#dce3ef;--shadow:0 4px 0 #e1e7f0;--radius:12px}
+:root[data-theme="ink-blue"] body{background:radial-gradient(circle at 94% 4%,#dce5ff 0 66px,transparent 67px),var(--canvas)}
+:root[data-theme="ink-blue"] .sidebar{background:#f9faff;border-right-color:#dce3ef}
+:root[data-theme="ink-blue"] .brand-mark{background:#3659c9;border-radius:6px}
+:root[data-theme="ink-blue"] .nav-link{background:#e8edff;border-color:#c9d4ff;color:#3659c9}
+:root[data-theme="ink-blue"] .sample-badge{background:#eef2ff;border-color:#d3dcff;color:#425cad}
+:root[data-theme="ink-blue"] .sample-badge i{background:#5674da}
+:root[data-theme="ink-blue"] .filter-icon{background:#e8edff;color:#3659c9;border-radius:7px}
+:root[data-theme="ink-blue"] .goal-icon{background:#edf2f8;color:#5d728f}
+:root[data-theme="ink-blue"] .actual-icon{background:#eaf4ef;color:#408363}
+:root[data-theme="ink-blue"] .rate-icon{background:#e8edff;color:#3659c9}
+:root[data-theme="ink-blue"] .count-icon{background:#f0edfa;color:#7669a0}
+:root[data-theme="ink-blue"] .achievement-card .metric-value,:root[data-theme="ink-blue"] .rate-cell{color:#3659c9}
+:root[data-theme="ink-blue"] .metric-progress,:root[data-theme="ink-blue"] .mini-progress{background:#e9edf8;border-color:#dce3ef}
+:root[data-theme="ink-blue"] .metric-progress span,:root[data-theme="ink-blue"] .mini-progress span{background:#4866d4}
+:root[data-theme="ink-blue"] .page-heading h1,:root[data-theme="ink-blue"] .section-heading h2{letter-spacing:-.8px}
+:root[data-theme="ink-blue"] .page-heading:after{content:"";position:absolute;right:11%;top:-14px;width:61px;height:42px;border:2px solid #91a9f0;border-radius:5px;transform:rotate(-12deg);box-shadow:7px 7px 0 -3px #dce5ff}
+:root[data-theme="ink-blue"] .metric-card:nth-child(3){border-top:3px solid #6b83db}
+:root[data-theme="ink-blue"] .empty-icon{background:#e8edff;color:#3659c9;border-color:#c9d4ff;border-radius:12px}

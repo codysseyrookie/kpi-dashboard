@@ -1,0 +1,4 @@
+/* Compact, accessible theme selector in the dashboard header. */
+.theme-picker{position:relative;display:flex;align-items:center;gap:6px;height:32px;padding:0 26px 0 9px;border:2px solid var(--line);border-radius:10px;background:var(--card);color:var(--accent);cursor:pointer}
+.theme-picker>.icon{font-size:17px}.theme-label{color:var(--muted);font-size:10px;font-weight:700}.theme-picker select{position:absolute;inset:0;width:100%;height:100%;padding:0 25px 0 8px;border:0;opacity:0;cursor:pointer}.theme-chevron{position:absolute;right:6px;top:6px;pointer-events:none;font-size:17px!important;color:var(--muted)}
+@media(max-width:700px){.theme-picker{height:29px;gap:3px;padding-left:6px}.theme-label{display:none}.theme-picker select{max-width:33px}.theme-picker>.icon{font-size:15px}.theme-chevron{right:3px;top:5px;font-size:15px!important}.topbar-right{gap:7px}}
