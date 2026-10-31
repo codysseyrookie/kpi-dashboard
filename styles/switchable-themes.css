@@ -1,4 +1,13 @@
 /* Both switchable themes live in one always-loaded stylesheet. */
+:root[data-theme="meadow"]{--accent:#34785c;--accent-pale:#e4f1e7;--canvas:#f7f7f1;--card:#fffefa;--line:#e4e8df;--shadow:0 5px 0 #e9ece3;--radius:18px}
+:root[data-theme="meadow"] body{background:radial-gradient(ellipse at 78% 5%,#e8f1dd 0 5%,transparent 5.2%),radial-gradient(ellipse at 75% 8%,#e8f1dd 0 2%,transparent 2.2%),var(--canvas)}
+:root[data-theme="meadow"] .brand-mark{border-radius:11px 11px 11px 4px;transform:rotate(-4deg)}
+:root[data-theme="meadow"] .metric-card:nth-child(2){background:linear-gradient(145deg,#fffefa 78%,#edf5e8)}
+:root[data-theme="meadow"] .metric-card:nth-child(3){background:linear-gradient(145deg,#fffefa 72%,#e5f0e4)}
+:root[data-theme="meadow"] .metric-icon{border-radius:50% 50% 45% 50%}
+:root[data-theme="meadow"] .achievement-card .metric-progress span{background:repeating-linear-gradient(90deg,#34785c 0 12px,#5a9a6c 12px 18px)}
+:root[data-theme="meadow"] .empty-icon{border-radius:50% 50% 50% 5px;transform:rotate(-8deg)}
+
 :root[data-theme="sunrise"]{--accent:#e76b4c;--accent-pale:#fff0e9;--canvas:#fbf6f1;--card:#fff;--line:#eee2d9;--shadow:0 5px 0 #f1e6dd;--radius:15px}
 :root[data-theme="sunrise"] body{background:radial-gradient(circle at 95% 8%,#fbe6b8 0 48px,transparent 49px),radial-gradient(circle at 88% 11%,#f5b89c 0 19px,transparent 20px),var(--canvas)}
 :root[data-theme="sunrise"] .brand-mark{background:#e76b4c;border-radius:11px 11px 4px 11px}
